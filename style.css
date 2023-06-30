@@ -152,6 +152,13 @@
 
 /* Começo header */
 
+.image-note {
+  max-width: 100%;
+  max-height: auto;
+  min-width: 100%;
+  min-height: auto;
+}
+
 .text-absolute {
   margin-top: 50%;
   margin-left: 45%;
