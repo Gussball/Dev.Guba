@@ -2,13 +2,13 @@
 Este é um projeto de uma página web para uma empresa de Tecnologia da Informação (T.I.). A página inclui várias seções, como projetos, informações sobre a empresa, feedback de clientes e um footer.
 
 ## Funcionalidades
-Seção de projetos: Apresenta os projetos recentes e em destaque da empresa de T.I.
-Sobre a companhia: Fornece informações detalhadas sobre a empresa, sua missão, valores e equipe.
-Feedback de clientes: Exibe depoimentos e feedbacks positivos de clientes satisfeitos.
+Seção de projetos: Apresenta os projetos recentes e em destaque da empresa de T.I.<br>
+Sobre a companhia: Fornece informações detalhadas sobre a empresa.<br>
+Feedback de clientes: Exibe depoimentos e feedbacks positivos de clientes satisfeitos.<br>
 Footer: Contém informações de contato, links de redes sociais e outros detalhes relevantes.
 
 ## Como executar o projeto
-Faça o download ou clone o repositório para o seu computador.
+Faça o download ou clone o repositório para o seu computador.<br>
 Abra o arquivo "index.html" em qualquer navegador web.
 
 ## Estrutura de arquivos
