@@ -4,7 +4,6 @@
   box-sizing: border-box;
 }
 
-/* Começo menu de navegação */
 
 #menu {
   background: #000000;
@@ -180,12 +179,6 @@
   text-decoration: underline yellow;
 }
 
-.text-absolute p {
-  font-size: 1rem;
-}
-
-/* Começo do conteúdo */
-
 .title-flex {
   font-size: 3rem;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -304,10 +297,9 @@
 }
 
 .container-project button {
-  padding: 0.8rem 2rem;
+  padding: 0.625rem 1.25rem;
   background: #000000;
   color: #ffff;
-  font-size: 1.5rem;
   text-transform: uppercase;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   border: none;
@@ -320,4 +312,38 @@
   background: #ccc;
   color: #000000;
   border-radius: 0.5rem;
+}
+
+/* Responsividade */
+
+@media (max-width: 1000px) {
+  .text-absolute {
+    display: none;
+  }
+}
+
+@media (max-width: 700px) {
+  .flex-container {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 425px) {
+  .container-project button {
+    padding: 0.425rem 0.825rem;
+  }
+
+  .title-flex h1 {
+    font-size: 3rem;
+  }
+
+  .about h2 {
+    font-size: 2rem;
+    margin-top: 5rem;
+  }
+
+  .container-project h2 {
+    font-size: 2rem;
+  }
 }
