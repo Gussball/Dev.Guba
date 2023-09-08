@@ -9,7 +9,7 @@ function updatemenu() {
 
 function countNumbers() {
   const numbers = document.querySelectorAll(".number");
-  const speed = 280; // Velocidade de contagem (em milissegundos)
+  const speed = 308; // Velocidade de contagem (em milissegundos)
 
   numbers.forEach((number) => {
     const target = +number.innerText.replace("+", "");
